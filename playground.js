@@ -13,10 +13,14 @@
 //   }
 // }
 
-console.log(Object.entries({ first: "penny", second: "dime" }));
-console.log(
-  Object.fromEntries([
-    ["first", "penny", "error", "dime"],
-    // ["second", "dime"],
-  ])
-);
+// console.log(Object.entries({ first: "penny", second: "dime" }));
+// console.log(
+//   Object.fromEntries([
+//     ["first", "penny", "error", "dime"],
+//     // ["second", "dime"],
+//   ])
+// );
+
+console.log(0.1 + 0.2 === 0.30000000000000004);
+// console.log(("3" + 7));
+// console.log("3" - 7);
