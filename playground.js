@@ -36,3 +36,22 @@ let updatedRoomName = `${unique[0]}--with--${unique[1]}`; //
 // console.log("penny-with-".match(/-with-/));
 
 console.log([1, 2, 3, 4, 5, 6, 7, 8].slice(0, 5));
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbnRpdHlJZCI6IjEwOGJmNDE4LWQxMjItNDk3ZC05YTcxLTA4MjJiYWU3N2Y2MiIsImlhdCI6MTY5NDYxMzAxMCwiZXhwIjoxNzI2MTcwNjEwfQ.K0dbQlE6BuuazmizGLYruAXybWuctR645JCnE1H6FOY
+
+// {
+//   "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbnRpdHlJZCI6IjEwOGJmNDE4LWQxMjItNDk3ZC05YTcxLTA4MjJiYWU3N2Y2MiIsImlhdCI6MTY5NDYxMzE2MCwiZXhwIjoxNzI2MTcwNzYwfQ.06kEU6X16qt-5jKr1j6O5Z9mUu5ADS6u2xmhF0fhVP4"
+// }
+
+// {
+//   "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbnRpdHlJZCI6IjEwOGJmNDE4LWQxMjItNDk3ZC05YTcxLTA4MjJiYWU3N2Y2MiIsImlhdCI6MTY5NDYxMzE2MCwiZXhwIjoxNjk0ODcyMzYwfQ.WA0Ffzpy51s-cJlPNThbj46DbJb8VgORYSbZv-gxYb8"
+// }
+
+const public_id =
+  "https://res.cloudinary.com/dtgigdp2j/image/upload/v1690997901/profileImages/ovgly1p1go37dp1b2jzp.jpg"
+    .split("/")
+    .slice(-2)
+    .join("/")
+    .split(".")[0];
+console.log(public_id);
+

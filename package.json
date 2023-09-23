@@ -1,0 +1,12 @@
+{
+  "name": "DSA_WITH_PYTHON",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ndujesco/DSA-WITH-PYTHON.git",
+  "author": "ugo <ndujesco@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "jsdom": "^22.1.0"
+  }
+}

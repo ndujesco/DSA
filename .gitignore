@@ -2,3 +2,5 @@
 no_publish.py
 no_publish.js
 .env
+
+node_modules
