@@ -1,11 +1,15 @@
 async function call() {
-  const res = await fetch('https://findr-backend.vercel.app/api/user', {
+  const res = await fetch('http://localhost:8000/api/user', {
     method: 'POST',
-    headers: { apiKey: '6508b27e2b66a05e77f8e04c' },
-    body: {
+    headers: {
+      'Content-Type': 'application/json',
+      apiKey: '6508b27e2b66a05e77f8e04c'
+    },
+    body: JSON.stringify({
       email: 'lol@email.com',
-      name: 'Jessics'
-    }
+      name: 'Jessica',
+      gender: 'male'
+    })
   });
   console.log(await res.json());
 }
